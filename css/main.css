@@ -67,6 +67,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.chungnam {
+  font-weight: 500;
+  margin-right: 3px;
+  color: #dd3454;
+}
 .box1 {
   width: 282px;
   height: auto;
