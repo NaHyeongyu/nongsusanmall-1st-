@@ -1,0 +1,251 @@
+@charset "utf-8";
+.details {
+  width: 1200px;
+  height: 100%;
+}
+.pagelocation {
+  width: 1200px;
+  margin: 20px auto;
+}
+.pagelocation > a > img {
+  width: auto;
+  height: 20px;
+}
+.pagelocation > a {
+  color: grey;
+  font-size: 15px;
+  height: 20px;
+}
+.pagelocation > a:hover {
+  color: black;
+}
+.productinfo {
+  width: 1200px;
+  height: 650px;
+}
+.productpic {
+  float: left;
+  width: 550px;
+  height: 630px;
+  margin: 0 0 0 0;
+}
+.productpic > .mainpic {
+  width: 550px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.productpic > .subpic {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+}
+.productselect {
+  float: right;
+  width: 590px;
+}
+.productselect > h3 {
+  font-size: 28px;
+}
+.productselectdetail {
+  width: 100%;
+  height: auto;
+}
+hr {
+  margin-top: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 30px 0;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+td {
+  width: 4px;
+}
+th {
+  background-color: #f4f4f4;
+}
+.price {
+  text-align: right;
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+}
+.price > span {
+  font-size: 16px;
+  margin-right: 8px;
+}
+.price > b {
+  color: #dd3454;
+  font-size: 32px;
+}
+.buttones {
+  margin-top: 40px;
+}
+#nomalbutton {
+  width: 140px;
+  height: 60px;
+  border-color: rgb(194, 194, 194);
+  border-style: solid;
+  border-width: 0.3px;
+  color: grey;
+}
+#nomalbutton:hover {
+  width: 140px;
+  height: 60px;
+  border-color: rgb(0, 0, 0);
+  color: black;
+  border-width: 0.3px;
+}
+#paynow {
+  width: 140px;
+  height: 60px;
+  width: 295px;
+  border: white solid 0.3px;
+  background-color: #dd3454;
+  color: white;
+}
+#paynow:hover {
+  width: 140px;
+  height: 60px;
+  width: 295px;
+  background-color: #dd3454;
+  color: white;
+  border-color: white;
+}
+td > span {
+  font-size: 14px;
+}
+td > .grey {
+  color: rgb(86, 86, 86);
+}
+select {
+  width: 100%;
+  height: 30px;
+  border: 0.3px solid rgb(206, 206, 206);
+}
+.infoetc {
+  width: 100%;
+  height: 120px;
+}
+.infoetc > .checkriview {
+  width: 550px;
+  float: left;
+  align-items: center;
+}
+.infoetc > .checkriview > .snslink > a > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.infoetc > .checkriview > span {
+  font-size: 14px;
+  margin-top: 6px;
+  float: left;
+}
+.infoetc > .checkriview > span > a {
+  color: #dd3454;
+  text-decoration: underline;
+}
+.snslink {
+  float: right;
+}
+.kakaopay {
+  float: right;
+}
+.smartrecomand {
+  /* background-color: aqua; */
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.smarttitle {
+  border: rgb(182, 182, 182) solid 0.3px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 16px 16px 0 0;
+  height: 48px;
+  padding: 10px;
+}
+.smarttitle > h3 {
+  font-size: 17px;
+  display: inline;
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+.smarttitle > span {
+  font-size: 14px;
+}
+.smartdetail {
+  display: flex;
+  justify-content: space-evenly;
+  border: rgb(182, 182, 182) solid 0.3px;
+}
+.box6 {
+  width: 180px;
+  height: auto;
+  margin-top: 40px;
+}
+.box6 > img {
+  width: 180px;
+}
+.box6 > h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 20px 0 14px 0;
+}
+.box6 > h5 {
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(93, 93, 93);
+}
+.box6 > h5 > span {
+  color: #dd3454;
+}
+.box6 > h4 {
+  font-size: 18px;
+  font-weight: 550;
+  margin: 0 0 40px 0;
+}
+.infonav {
+  width: 100%;
+  margin-top: 60px;
+}
+.infonav > ul {
+  display: flex;
+}
+.infonav > ul > li {
+  text-align: center;
+  width: 240px;
+  padding: 16px;
+  border: rgb(216, 216, 216) solid 0.1px;
+  border-right: 0px;
+}
+.infonav > ul > li > a {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+.infonav > ul > .infonavfirst {
+  border-radius: 16px 0 0 0;
+  background-color: rgb(76, 76, 76);
+}
+.infonav > ul > .infonavfirst > a {
+  color: white;
+}
+.infonav > ul > .infonavlast {
+  border-right: rgb(216, 216, 216) solid 0.1px;
+  border-radius: 0 16px 0 0;
+}
+.productimg {
+  margin: 30px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

@@ -1,0 +1,275 @@
+@charset "utf-8";
+header {
+  width: 100%;
+  height: 168px;
+  position: relative;
+  z-index: 999;
+  /* display: flex;
+    flex-direction: column;
+    background-color: red; */
+}
+.headertop {
+  width: 1200px;
+  height: 35px;
+}
+.logo {
+  width: 100%;
+  height: 86px;
+}
+.headerbottom {
+  width: 1200px;
+  height: 52px;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  background-color: white;
+}
+.topmenu1 {
+  width: 464px;
+  height: 35px;
+  float: left;
+  padding-top: 6px;
+}
+.topmenu1left {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.topmenu1right {
+  float: right;
+  display: flex;
+  margin-right: 60px;
+}
+.topmenu1 > .topmenu1left > a {
+  font-size: 12px;
+  margin-left: 4px;
+  display: inline;
+}
+.topmenu1 > .topmenu1left > img {
+  width: 16px;
+  height: 16px;
+  display: inline;
+}
+.topmenu1 > .topmenu1right > a {
+  font-size: 12px;
+  display: inline;
+  margin-left: 10px;
+}
+.topmenu1 > .topmenu1right > img {
+  width: 16px;
+  height: 16px;
+  display: inline;
+  margin-right: 2px;
+}
+
+.topmenu2 {
+  float: right;
+  width: 340px;
+  border: 0;
+}
+.topmenu2 > ul > li > a {
+  font-size: 12px;
+}
+
+.topmenu2 > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logo {
+  text-align: center;
+}
+p {
+  display: inline;
+}
+
+.category {
+  width: 160px;
+  height: 34px;
+  border-radius: 20px;
+  background-color: #dd3454;
+  float: left;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+  margin-top: 8px;
+}
+.subcategory {
+  display: flex;
+  flex-direction: column;
+}
+.subcategory > li {
+  /* display: none; */
+  float: right;
+}
+.category > span {
+  color: white;
+  font-size: 15 px;
+  float: left;
+  margin: 8px 0 0 24px;
+}
+
+.main-category {
+  width: 160px;
+  background-color: #f5f5f5;
+}
+.category .categorydetail {
+  /* display: none; */
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  background-color: white;
+  z-index: 10;
+  margin-top: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #dd3454;
+  display: none;
+}
+
+.category > .categoryimgl {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.category > .categoryimgl > img {
+  width: 100%;
+  height: 100%;
+  margin: 6px 0 0 16px;
+}
+.category > .categoryimgr {
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin: 9px 10px 0 0;
+}
+.category > .categoryimgr > img {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  width: 600px;
+  float: left;
+  margin: 11px 0px 0px 0px;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 30px;
+}
+nav > ul > li > a {
+  color: #242529;
+  font-size: 16px;
+}
+nav > ul > li > a:hover {
+  color: #dd3454;
+}
+.finder {
+  width: 310px;
+  height: 34px;
+  float: right;
+  margin-top: 7px;
+}
+form {
+  width: 300px;
+  height: 34px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  border-radius: 20px;
+}
+fieldset {
+  border: 0;
+}
+
+form > fieldset > input {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(233, 233, 233);
+  border: 0;
+  margin: 2px 0px 0px 30px;
+}
+::placeholder {
+  font-size: 14px;
+}
+
+form > fieldset > img {
+  height: 24px;
+  width: 24px;
+  margin: 5px 20px 0px 0px;
+  float: right;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+}
+.more > a {
+  font-weight: 500;
+}
+.subnav3 {
+  padding: 30px 0px 30px 0px;
+  width: 1100px;
+  height: auto;
+}
+.subnav3 > ul {
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.subnav3 > ul > li > a {
+  font-size: 15px;
+  color: rgb(61, 61, 61);
+}
+.footerdetail {
+  margin-top: 40px;
+  width: 1200px;
+  height: 220px;
+}
+.footerlogo {
+  float: left;
+  height: 200px;
+}
+.footerwrite {
+  float: left;
+  margin-left: 50px;
+}
+.footerwrite > span {
+  font-size: 12px;
+}
+.contact {
+  float: right;
+}
+.contact > h4 {
+  margin-bottom: 10px;
+}
+.contact > span {
+  font-size: 12px;
+}
+.kakao {
+  margin-top: 30px;
+  align-items: start;
+}
+.contact > .kakao > img {
+  float: left;
+  width: 28px;
+  height: 28px;
+}
+.kakao > a {
+  font-size: 14px;
+  font-weight: 600;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.sns {
+  display: flex;
+  float: left;
+  margin-top: 20px;
+}
+.sns > .snsicon > a > img {
+  width: 28px;
+  height: 28px;
+  margin: 0 4px;
+}

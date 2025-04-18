@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+#slider {
+  width: 100%;
+  height: 330px;
+  background-color: rgb(121, 121, 255);
+  position: relative;
+  margin-top: 12px;
+}
+#slider {
+  position: relative;
+}
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#slider > img {
+  width: 100%;
+  height: 100%;
+}
+
+#slider > .subnav {
+  width: 1200px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 24px;
+  border: rgb(201, 201, 201) solid 0.3px;
+  box-shadow: inset;
+}
+
+#slider > .subnav > ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#slider > .subnav > ul > li > span {
+  font-size: 15px;
+}
+#slider > .subnav > ul > li:hover {
+  cursor: pointer;
+}
+
+.container1 {
+  width: 1200px;
+  height: auto;
+}
+.container1 > h3 {
+  margin: 80px 0px 0px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.section1 {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box1 {
+  width: 282px;
+  height: auto;
+  margin-top: 40px;
+  position: relative;
+}
+.box1 > a > .mainimg {
+  width: 282px;
+  height: 282px;
+  border-radius: 16px;
+}
+.box1 > a > .cartimg {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 246px;
+  right: 0px;
+  display: none;
+  opacity: 80;
+}
+.box1 > a > h3 {
+  font-size: 18px;
+  margin: 8px 0px 12px 0px;
+  font-weight: 400;
+}
+.box1 > a > h2 {
+  font-size: 19px;
+}
+.box1 > a > h2 > span {
+  font-size: 19px;
+  color: #dd3454;
+}
+.box1 > a > h4 {
+  color: rgb(152, 152, 152);
+  font-size: 14px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.container2 {
+  padding-bottom: 60px;
+}
+.section2 {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.container2 > .section2 > .box2 {
+  width: 384px;
+  height: auto;
+  margin-top: 40px;
+  position: relative;
+}
+.container2 > h3 {
+  margin: 80px 0px 0px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.container2 > .section2 > .box2 > a > img {
+  border-radius: 20px;
+}
+.box2 > a > span {
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.box2 > a > span > .textefect {
+  font-size: 25px;
+  font-weight: bold;
+}
+.box2 > a > span > hr {
+  margin: 6px 0;
+}
+.box3 {
+  margin-top: 40px;
+  width: 236px;
+  height: auto;
+  position: relative;
+}
+
+.box3 > a > .mainimg {
+  width: 263px;
+  height: 263px;
+  border-radius: 100%;
+}
+.box3 > a > .cartimg {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 230px;
+  right: -5px;
+  display: none;
+  opacity: 80;
+}
+.section3 {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.container3 > h3 {
+  margin: 80px 0px 0px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.box3 > a > h3 {
+  font-size: 18px;
+  margin: 8px 0px 12px 0px;
+  font-weight: 400;
+}
+.box3 > a > h2 {
+  font-size: 19px;
+}
+.box3 > a > h2 > span {
+  font-size: 19px;
+  color: #dd3454;
+}
+.box3 > a > h4 {
+  color: rgb(152, 152, 152);
+  font-size: 14px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.container3 {
+  background-color: rgb(241, 241, 241);
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.reviewimg {
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+}
+.container4 > h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.section4 {
+  display: flex;
+  width: 1200px;
+}
+.box4 {
+  width: 282px;
+  height: auto;
+  margin-top: 40px;
+}
+.box4 > img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.section4 > .box > .star {
+  height: 20px;
+  width: 282px;
+}
+.section4 > .box4 > .star > ul {
+  margin-top: 12px;
+}
+.section4 > .box4 > .star > ul > li {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+}
+.section4 > .box4 > .star > ul > li > img {
+  width: 100%;
+  height: 100%;
+}
+.box4 > a > h2 {
+  font-size: 19px;
+  margin-top: 12px;
+}
+.box4 > a > h4 {
+  font-size: 13px;
+  margin-top: 12px;
+  color: rgb(86, 86, 86);
+  font-weight: lighter;
+}
+.container5 > h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 80px 0px 0px 0px;
+}
+.subnav2 {
+  margin-top: 40px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.iconbox > img {
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+}
+.section5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 1200px;
+}
+.section5 > .box5 {
+  width: 222px;
+  height: auto;
+  margin-top: 70px;
+  position: relative;
+}
+
+.box5 > a > .mainimg {
+  width: 100%;
+  height: 226px;
+  border-radius: 16px;
+}
+.box5 > a > .cartimg {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 185px;
+  right: 0px;
+  display: none;
+  opacity: 80;
+}
+.section5 > .box5 > a > h3 {
+  margin: 0 0px 12px 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+.section5 > .box5 > a > h2 {
+  font-size: 17px;
+}
+.box5 > a > h2 > span {
+  font-size: 17px;
+  color: #dd3454;
+}
+.box5 > a > h4 {
+  color: rgb(152, 152, 152);
+  font-size: 12px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.more {
+  margin-top: 60px;
+  border: rgb(181, 181, 181) solid 0.3px;
+  padding: 20px;
+  width: 1200px;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "img": "img/container1.jpg",
+    "title": "(공주산성시장협동조합)수제 밤 초코파이(70g*6개입)",
+    "price": "21,000원"
+  },
+  {
+    "img": "img/container2.jpg",
+    "title": "[쌀사는 날](천안시농협쌀조합공동사업법인)24년 천안홍타령쌀 20kg(상..)",
+    "price": "48,590원",
+    "original": "60,200원",
+    "discount": "10%+10%"
+  },
+  {
+    "img": "img/container3.jpg",
+    "title": "[농가할인](이화농원) 24년 정안옥광밤햇밤 2kg,4kg(대/특)",
+    "price": "23,100원",
+    "original": "35,700원",
+    "discount": "35%"
+  },
+  {
+    "img": "img/container4.jpg",
+    "title": "(가득팜)모듬쌈채소 800g/모듬샐러드 800g",
+    "price": "13,200원"
+  },
+  {
+    "img": "img/container5.jpg",
+    "title": "(나눔영농조합법인)칠갑산구기자차 22g (1.1g*20포)",
+    "price": "17,000원"
+  },
+  {
+    "img": "img/container6.jpg",
+    "title": "[쌀사는 날](청양군지역활성화재단) 24년 칠갑마루 구수한 향진주쌀 10..",
+    "price": "26,775원",
+    "original": "37,000원",
+    "discount": "15%+15%"
+  },
+  {
+    "img": "img/container7.jpg",
+    "title": "[농가할인](이화농원)24년 정안알밤 햇밤 4kg(대/특)",
+    "price": "29,400원",
+    "original": "44,100원",
+    "discount": "33%"
+  },
+  {
+    "img": "img/container8.jpeg",
+    "title": "(농업회사법인 풀하우스)찬환경 유러피안 샐러드채소 1kg(7~8종)",
+    "price": "17,400원"
+  }
+]
